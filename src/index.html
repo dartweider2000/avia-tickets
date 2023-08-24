@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Webpack</title>
+</head>
+<body>
+   <div class="wrapper">
+      <header class="header">
+         <div class="header__container">
+            <div class="header__row">
+               <a href="#" class="header__logo">
+                  <img src="#" alt="logo">
+               </a>
+               <form action="#" name="form-header" class="header__form form-header">
+                  <select name="select" class="form-header__select">
+                     <option value="USD" class="form-header__option form-header__option_1">US Dollar</option>
+                     <option value="EUR" class="form-header__option form-header__option_2">EU Euro</option>
+                     <option value="RUB" class="form-header__option form-header__option_3">RU Ruble</option>
+                  </select>
+               </form>
+            </div>
+         </div>
+      </header>
+      <div class="search-form">
+         <div class="search-form__container">   
+            <div class="search-form__row">
+               <form action="#" name="search-form" class="search-form__form">
+                  <div class="search-form__title">Card Title</div>
+                  <div class="search-form__wrapper">
+                     <div class="search-form__input-place">
+                        <input type="text" name="origin" placeholder="Origin" class="search-form__input">
+                     </div>
+                     <div class="search-form__input-place">
+                        <input type="text" name="destination" placeholder="Destination" class="search-form__input">
+                     </div>
+                     <input type="date" name="depart_time" placeholder="Depart time" class="search-form__input">
+                     <input type="date" name="return_time" placeholder="Return time" class="search-form__input">
+                  </div>
+                  <div class="search-form__controlls">
+                     <input type="submit" class="search-form__submit search-form__button" value="Search">
+                     <input type="reset" class="search-form__reset search-form__button" value="Reset">
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+      <main class="content">
+         <div class="header__container">
+            <div class="content__row">
+            </div>
+         </div>
+      </main>
+   </div>
+</body>
+</html>
